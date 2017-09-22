@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Lynda.com Downloader</title>
+  <!-- Bootstrap css-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <!--Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Propeller css -->
+  <link href="css/propeller.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-offset-2 col-sm-8 align-middle">
+
+        <div id="box" class="pmd-card pmd-card-default pmd-z-depth pmd-card-custom-form">
+          <div class="pmd-card-title">
+            <h2 class="pmd-card-title-text">Lynda.com Downloader</h2>
+          </div>
+          <div class="pmd-card-body">
+            <div class="form-group pmd-textfield">
+              <label for="inputError1" class="control-label pmd-input-group-label">Lynda.com Course Url:</label>
+              <div class="input-group">
+                <div class="input-group-addon"><i class="material-icons md-dark pmd-sm">link</i></div>
+                <input id="urlinput" type="text" class="form-control" placeholder="https://www.lynda.com/JavaScript-tutorials/ES6-Right-Parts/604265-2.html">
+              </div>
+            </div>
+          </div>
+          <div class="pmd-card-actions">
+            <button id="downloadbtn" class="btn pmd-btn-fab pmd-btn pmd-ripple-effect btn-success" type="button" disabled><i class="material-icons pmd-sm">check</i></button>
+          </div>
+        </div>
+
+        <button id="downloadall" class="btn pmd-btn-raised btn-primary btn-block" type="button" onClick="clearList()" disabled>Clear List</button>
+        <div id="linklist">
+          <ul class="list-group pmd-z-depth pmd-list pmd-card-list"></ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div hidden>
+    <button id="alert" type="button" data-positionX="center" data-positionY="bottom" data-effect="fadeInUp" data-message="default"
+      data-duration="3000" class="btn pmd-ripple-effect btn-default pmd-btn-raised pmd-alert-toggle">Top Left</button>
+  </div>
+  <!-- jQuery before Propeller.js -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/propeller.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>

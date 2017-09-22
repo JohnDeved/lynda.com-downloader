@@ -1,0 +1,27 @@
+{
+  "name": "lynda.js",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.16.0",
+    "cheerio": "^1.0.0-rc.2",
+    "colors": "*",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.0",
+    "ejs": "~2.5.5",
+    "express": "~4.14.1",
+    "morgan": "~1.7.0",
+    "propellerkit": "^1.1.0",
+    "request": "*",
+    "serve-favicon": "~2.3.2"
+  },
+  "standard": {
+    "ignore": [
+      "node_modules/**",
+      "public/js/min/**"
+    ]
+  }
+}
