@@ -6,17 +6,17 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "body-parser": "~1.16.0",
+    "body-parser": "~1.18.2",
     "cheerio": "^1.0.0-rc.2",
     "colors": "*",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.0",
     "ejs": "~2.5.5",
-    "express": "~4.14.1",
-    "morgan": "~1.7.0",
+    "express": "~4.16.0",
+    "morgan": "~1.9.0",
     "propellerkit": "^1.1.0",
     "request": "*",
-    "serve-favicon": "~2.3.2"
+    "serve-favicon": "~2.4.5"
   },
   "standard": {
     "ignore": [
