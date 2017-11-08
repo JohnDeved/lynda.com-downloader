@@ -1,2 +1,2 @@
 ## lynda.com-downloader
-lets you download lynda.com videos for free
+a little site/script i wrote that lets you download lynda.com videos for free
