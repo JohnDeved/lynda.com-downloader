@@ -68,9 +68,9 @@ const Lynda = class {
           },
           form: {
             currentView: 'login',
-            libraryCardNumber: '21172023632922',
+            libraryCardNumber: '21172023742556',
             libraryCardPasswordVerify: '',
-            libraryCardPin: '5339',
+            libraryCardPin: '7823',
             org: 'dclibrary.org',
             seasurf: seasurf
           }
