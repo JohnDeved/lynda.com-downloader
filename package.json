@@ -10,12 +10,12 @@
     "cheerio": "^1.0.0-rc.2",
     "colors": "*",
     "cookie-parser": "~1.4.3",
-    "debug": "~2.6.0",
+    "debug": "~2.6.9",
     "ejs": "~2.5.5",
     "express": "~4.16.0",
     "morgan": "~1.9.0",
-    "propellerkit": "^1.1.0",
-    "request": "*",
+    "propellerkit": "^1.2.0",
+    "request": "2.84.0",
     "serve-favicon": "~2.4.5"
   },
   "standard": {
