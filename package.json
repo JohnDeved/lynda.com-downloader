@@ -15,7 +15,7 @@
     "express": "~4.16.0",
     "morgan": "~1.9.0",
     "propellerkit": "^1.1.0",
-    "request": "*",
+    "request": "2.88.2",
     "serve-favicon": "~2.4.5"
   },
   "standard": {
