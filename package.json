@@ -14,7 +14,7 @@
     "ejs": "~2.5.5",
     "express": "~4.16.0",
     "morgan": "~1.9.0",
-    "propellerkit": "^1.1.0",
+    "propellerkit": "^1.2.0",
     "request": "*",
     "serve-favicon": "~2.4.5"
   },
